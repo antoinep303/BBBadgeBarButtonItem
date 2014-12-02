@@ -47,6 +47,17 @@
 
 #pragma mark - Utility methods
 
+- (UIColor *)tintColor
+{
+    return ((UIButton*)self.customView).tintColor;
+}
+
+- (void)setTintColor:(UIColor *)tintColor
+{
+    ((UIButton*)self.customView).tintColor = tintColor;
+}
+
+
 // Handle badge display when its properties have been changed (color, font, ...)
 - (void)refreshBadge
 {

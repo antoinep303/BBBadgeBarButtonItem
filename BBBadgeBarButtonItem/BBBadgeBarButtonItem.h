@@ -12,13 +12,13 @@
 // Each time you change one of the properties, the badge will refresh with your changes
 
 // Badge value to be display
-@property (nonatomic) NSString *badgeValue;
+@property (nonatomic, retain) NSString *badgeValue;
 // Badge background color
-@property (nonatomic) UIColor *badgeBGColor;
+@property (nonatomic, retain) UIColor *badgeBGColor;
 // Badge text color
-@property (nonatomic) UIColor *badgeTextColor;
+@property (nonatomic, retain) UIColor *badgeTextColor;
 // Badge font
-@property (nonatomic) UIFont *badgeFont;
+@property (nonatomic, retain) UIFont *badgeFont;
 // Padding value for the badge
 @property (nonatomic) CGFloat badgePadding;
 // Minimum size badge to small
